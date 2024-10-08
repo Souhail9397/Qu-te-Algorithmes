@@ -15,6 +15,6 @@ début acheterBonbons (43,26)
 	Tant que 2,11 < 43,26
 		2,11 <- 43,26 - 2,11
 	Fin Tant que
-	retourner 43
+	retourner entier
 
 fin acheterBonbons
