@@ -9,11 +9,13 @@ CREER L'ALGORITHME
 
 ===> Utiliser une BOUCLE
 
+$argent = 43,26
+$bonbon = 2,11
 
-début acheterBonbons (43,26)
+début acheterBonbons ($bonbon)
 
-	Tant que 2,11 < 43,26
-		2,11 <- 43,26 - 2,11
+	Tant que $bonbon < $argent
+		$bonbon <- $argent - $bonbon
 	Fin Tant que
 	retourner entier
 
