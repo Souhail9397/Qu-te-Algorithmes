@@ -1,10 +1,12 @@
 $argent = 43,26  
-$bonbon = 2,11
+$prixBonbon = 2,11
+$nombreBonbons = 0
 
-début acheterBonbons ($bonbon)
+début acheterBonbons ($prixBonbon, $argent)
 
-	Tant que $bonbon < $argent
-		$bonbon <- $argent - $bonbon
+	Tant que $prixBonbon ≤ $argent
+		$argent <- $argent - $prixBonbon
+  			$nombreBonbons <- $nombreBonbons + 1
 	Fin Tant que
 	retourner entier
 
