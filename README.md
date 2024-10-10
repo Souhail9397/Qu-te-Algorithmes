@@ -1,5 +1,5 @@
 $argent = 43,26  
-$prixBonbon = 2,11
+$prixBonbon = 2,11  
 $nombreBonbons = 0
 
 début acheterBonbons ($prixBonbon, $argent)
