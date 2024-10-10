@@ -8,6 +8,6 @@ début acheterBonbons ($prixBonbon, $argent)
 		$argent <- $argent - $prixBonbon
   			$nombreBonbons <- $nombreBonbons + 1
 	Fin Tant que
-	retourner entier
+	retourner $nombreBonbons
 
 fin acheterBonbons
